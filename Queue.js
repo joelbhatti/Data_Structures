@@ -10,7 +10,6 @@ function enqueue(newVal) {
     currentSize++;
   }
 }
-
 function display() {
   console.warn(queue);
 }
