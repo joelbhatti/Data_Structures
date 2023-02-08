@@ -1,5 +1,5 @@
-let x = myFunction(4 , 3);
-function myFunction(a , b){
-   return a * b;
+const jcb = {
+   name: "Joel",
+   age: 27
 }
-console.log(x+' '+"Called myFunction")
+console.log(Object.entries(jcb))
